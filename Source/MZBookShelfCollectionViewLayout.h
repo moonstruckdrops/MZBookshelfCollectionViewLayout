@@ -8,7 +8,7 @@
 // This project is an rewritten version of grid layout by Mark Pospesel there: http://markpospesel.wordpress.com/2012/12/11/decorationviews/
 
 #import <UIKit/UIKit.h>
-#import "LXReorderableCollectionViewFlowLayout.h"
+#import <LXReorderableCollectionViewFlowLayout/LXReorderableCollectionViewFlowLayout.h>
 
 extern NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind;
 
