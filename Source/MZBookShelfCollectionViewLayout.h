@@ -22,10 +22,8 @@ extern NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind;
 - (UIOffset)collectionView:(UICollectionView *)collectionView layout:(MZBookshelfCollectionViewLayout *)collectionViewLayout decorationViewAdjustmentForRow:(NSInteger)row inSection:(NSInteger)section;
 @end
 
-@interface MZBookshelfCollectionViewLayout : UICollectionViewFlowLayout <UIGestureRecognizerDelegate>
-  @property (nonatomic, weak) id <MZBookshelfCollectionViewLayoutDelegate> delegate;
-  @property (nonatomic, strong) NSDictionary *bookShelfRectanges;
-@end
+//@interface MZBookshelfCollectionViewLayout : UICollectionViewFlowLayout <UIGestureRecognizerDelegate>
+//@end
 
 //@interface MZBookshelfCollectionViewLayout : LXReorderableCollectionViewFlowLayout
 //@end

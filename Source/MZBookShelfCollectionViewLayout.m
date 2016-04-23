@@ -11,11 +11,11 @@
 
 NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind = @"MZBookshelfCollectionViewLayoutDecorationViewKind";
 
-//@interface MZBookshelfCollectionViewLayout ()
+@interface MZBookshelfCollectionViewLayout ()
 /// The delegate will point to collection view's delegate automatically.
-//@property (nonatomic, weak) id <MZBookshelfCollectionViewLayoutDelegate> delegate;
-//@property (nonatomic, strong) NSDictionary *bookShelfRectanges;
-//@end
+@property (nonatomic, weak) id <MZBookshelfCollectionViewLayoutDelegate> delegate;
+@property (nonatomic, strong) NSDictionary *bookShelfRectanges;
+@end
 
 @implementation MZBookshelfCollectionViewLayout
 
