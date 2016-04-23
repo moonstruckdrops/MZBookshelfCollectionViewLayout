@@ -23,6 +23,8 @@ extern NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind;
 @end
 
 @interface MZBookshelfCollectionViewLayout : UICollectionViewFlowLayout <UIGestureRecognizerDelegate>
+  @property (nonatomic, weak) id <MZBookshelfCollectionViewLayoutDelegate> delegate;
+  @property (nonatomic, strong) NSDictionary *bookShelfRectanges;
 @end
 
 //@interface MZBookshelfCollectionViewLayout : LXReorderableCollectionViewFlowLayout
