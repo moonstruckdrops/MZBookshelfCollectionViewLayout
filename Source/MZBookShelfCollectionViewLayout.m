@@ -33,7 +33,7 @@ NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind = @"MZBookshel
     if (self.scrollDirection == UICollectionViewScrollDirectionVertical)
     {
         // Calculate where shelves go in a vertical layout
-        int sectionCount = [self.collectionView numberOfSections];
+      int sectionCount = (int) [self.collectionView numberOfSections];
         
         CGFloat y = 0;
         CGFloat availableWidth = self.collectionViewContentSize.width - (self.sectionInset.left + self.sectionInset.right);
@@ -44,7 +44,7 @@ NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind = @"MZBookshel
             y += self.headerReferenceSize.height;
             y += self.sectionInset.top;
             
-            int itemCount = [self.collectionView numberOfItemsInSection:section];
+            int itemCount = (int) [self.collectionView numberOfItemsInSection:section];
             int rows = ceilf(itemCount/(float)itemsAcross);
             for (int row = 0; row < rows; row++)
             {
