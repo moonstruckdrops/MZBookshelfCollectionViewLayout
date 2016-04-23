@@ -5,5 +5,5 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.source       = { :git => "git@github.com:m1entus/MZBookshelfCollectionViewLayout.git" }
   s.source_files  = "Source/*.{h,m}"
-  s.dependency 'LXReorderableCollectionViewFlowLayout', '~> 0.1'
+#  s.dependency 'LXReorderableCollectionViewFlowLayout', '~> 0.1'
 end
